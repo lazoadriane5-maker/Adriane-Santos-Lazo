@@ -1,4 +1,4 @@
-# Hi there, adriane here👋
+# Hi there, Adriane here👋
 
 <img src="[[https://i.pinimg.com/originals/eb/3b/4f/eb3b4f04d70bfb9dbc735f8b81676ae2.gif](https://media.tenor.com/fTWBE8hZFWsAAAAe/chae-won-chaewon.png)](https://media.tenor.com/fTWBE8hZFWsAAAAe/chae-won-chaewon.png)">
 
