@@ -1,4 +1,4 @@
-# Hi there, Adriane here👋
+# Hi there, Adriane Lazo here👋
 
 <img src="http://media.tenor.com/L_lACSZzo9YAAAAM/lesserafim-kim-chaewon.gif">
 
