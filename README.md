@@ -1,6 +1,6 @@
 # Hi there, Adriane Lazo here👋
 
-#Chaewon
+# Chaewon
 <img src="http://media.tenor.com/L_lACSZzo9YAAAAM/lesserafim-kim-chaewon.gif">
 
 # Bio
