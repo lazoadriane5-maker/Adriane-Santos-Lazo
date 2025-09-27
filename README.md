@@ -5,7 +5,7 @@
 
 # Bio
 
-I'm Adriane Santos Lazo from Bangued Abra
+I'm Adriane Santos Lazo from Bangued Abra.
 
 
 # Social Media Accounts
