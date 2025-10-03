@@ -4,32 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/topnavigation.css">
+    <link rel="stylesheet" href="CSS/Slideshow.css">
+    <link rel="stylesheet" href="JS/midterm.js">
     <title>GALLERY</title>
 
  <style>
+    /*backround vid*/
     .videobg {
      
-            position: absolute;
+            position: fixed;
             right: 0;
             bottom: 0;
             width: 100;
             height: 100;
             object-fit: cover;
-            z-index: -1;
+            object-position: center;
+            z-index: -2;
             padding: 16px;
         }
     
-        @media(max-aspect-ratio: 16/8) {
+     @media(max-aspect-ratio: 16/8) {
             .videobg{
-                width: auto;
-                height: 100%;
+            width: auto;
+            height: 100%;
             }
             
         }
+/* Content & Gallery */
+.image-slider {
+    position: relative;
+    z-index: 10;
+    padding-top: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(249, 0, 83);
+}
+
+
 </style>
-
-
-    
 
 
 </head>
@@ -45,28 +57,29 @@
 
     <!-- Background Video -->
     <video autoplay muted loop class="videobg">
-        <source src="Vids/Loonie - PALAISIPAN feat. Arthur Nery.mp4" type="video/mp4">
-
+        <source src="Vids/Space Nebula.mp4" type="video/mp4">
     </video>
 
-
-
-    <!-- Dark overlay for readability -->
-    <div class="overlay"></div>
-
     <!-- Gallery Content -->
-    <div class="content">
+    <div class="image-slider">
         <h1>MY GALLERY</h1>
         <p>HAKDOG!!</p>
         
         <div class="gallery">
-            <img src="images/1.jpg" alt="Image 1" height="200" width="200">
-            <img src="images/2.jpg" alt="Image 2" height="200" width="200">
-            <img src="images/3.jpg" alt="Image 3" height="200" width="200">
-            <img src="images/4.jpg" alt="Image 4" height="200" width="200">
-            <img src="images/5.jpg" alt="Image 5" height="200" width="200">
+        <div> <img src="images/1.jpg" alt="Image 1" height="200" width="200"></div> 
+        <div> <img src="images/2.jpg" alt="Image 1" height="200" width="200"></div>
+        <div> <img src="images/3.jpg" alt="Image 1" height="200" width="200"></div> 
+        <div> <img src="images/4.jpg" alt="Image 1" height="200" width="200"></div> 
+        <div> <img src="images/5.jpg" alt="Image 1" height="200" width="200"></div> 
         </div>
     </div>
+  
+    <div class="arrow left">&#10094;</div>
+    <div class="arrow right">&#10095;</div>
+    <div class="dots"></div>
+
 
 </body>
 </html>
+
+
